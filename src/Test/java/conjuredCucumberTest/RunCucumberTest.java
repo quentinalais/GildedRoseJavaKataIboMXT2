@@ -1,12 +1,11 @@
-package edu.insightr.gildedrose;
+package conjuredCucumberTest;
 import cucumber.api.CucumberOptions;
-
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(strict = true,features="/Users/nathanamar/IdeaProjects/GildedRoseJavaKata/src/test/resources/conjured.feature")
+@CucumberOptions(strict = true)
 public class RunCucumberTest {
-
-
 }
+
+
